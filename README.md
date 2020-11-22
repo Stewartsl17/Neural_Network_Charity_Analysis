@@ -21,19 +21,19 @@ In order to correctly create the model, we had to remove the EIN and NAME, as we
 In our original model, we were able to achieve a perfomance level of 72.55%, which was a good first trial of the model. However, we were then asked to reach a model performance level of 75%. In order to do so, we tested several different shifts in various features of the model, including: 
 
 * Dropping a Column <br>
-![]()
+![](https://github.com/Stewartsl17/Neural_Network_Charity_Analysis/blob/main/Images/Option%201%20-%20Remove%20a%20Column.png)
 
 * Increasing Neurons <br>
-![]()
+![](https://github.com/Stewartsl17/Neural_Network_Charity_Analysis/blob/main/Images/Option%202%20-%20Increase%20Neurons.png)
 
 * Adding a Hidden Layer <br>
-![]()
+![](https://github.com/Stewartsl17/Neural_Network_Charity_Analysis/blob/main/Images/Option%203%20-%20Add%20Hidden%20Layers.png)
 
 * Changing the Activation Types <br>
-![]()
+![](https://github.com/Stewartsl17/Neural_Network_Charity_Analysis/blob/main/Images/Option%204%20-%20Use%20Different%20Activation%20Functions%20.png)
 
 The best shift of the features tested was the third option, which was the addition of another layer. The number of hidden layers was 3 and the number of neurons per layer was 80/30/5. Based on modeling practices and other testing, we found that 2 times the number of outputs was best for our top layer and then to follow the other best perfoming sizes from past tests for the other layers. This model also continued to utilize the relu activation for the hidden layers and the sigmoid for the output layer because these were best performing during testing. <br>
-![]()
+![](https://github.com/Stewartsl17/Neural_Network_Charity_Analysis/blob/main/Images/Option%203%20Layers.png)
 
 However, despite this being our best model, we did not achieve the asked performance level of 75%. 
 
